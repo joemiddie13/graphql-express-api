@@ -1,4 +1,4 @@
-# GraphQL Weather API Project
+# GraphQL Weather API Project for ACS 4330 Front End Query Languages
 
 This project demonstrates how to build a GraphQL API using Express.js that fetches weather data from the OpenWeatherMap API. The API allows users to query weather information by ZIP code and supports different unit systems (metric, imperial, standard).
 

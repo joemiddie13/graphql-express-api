@@ -3,10 +3,14 @@ const express = require('express')
 const { graphqlHTTP } = require('express-graphql')
 const { buildSchema } = require('graphql')
 const fetch = require('node-fetch')
+const cors = require('cors')
 require('dotenv').config()
 
 // Initialize express
 const app = express()
+
+// Enable CORS
+app.use(cors())
 
 // Basic schema setup
 const schema = buildSchema(`

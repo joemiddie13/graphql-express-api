@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  margin-bottom: 2rem;
+}
+
+.Weather form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.Weather input,
+.Weather select,
+.Weather button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.weather-data {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+} 

@@ -12,9 +12,17 @@ const GET_WEATHER = gql`
       temp_min
       temp_max
       humidity
+      pressure
       wind {
         speed
         deg
+      }
+      coordinates {
+        lat
+        lon
+      }
+      clouds {
+        all
       }
       cod
       message

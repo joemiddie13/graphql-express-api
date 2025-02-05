@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Weather Lookup</h1>
-        <p>Enter a ZIP code to get current weather conditions</p>
+        <p>Use your current location or enter a ZIP code to get current weather conditions</p>
       </header>
       <main>
         <Weather />
